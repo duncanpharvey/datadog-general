@@ -23,7 +23,7 @@ async function checkView() {
     tickets.sort();
     var newTicketSet = new Set(tickets.map(ticket => ticket.href));
 
-    // if the set of tickets is different than the previous run, update the set of tickets to be current and send to Slack
+    // if the current set of tickets is different than the set of tickets in the previous run, update the set of tickets to be current and send to Slack
     if (!isEqual(ticketSet, newTicketSet)) {
         ticketSet = new Set();
 

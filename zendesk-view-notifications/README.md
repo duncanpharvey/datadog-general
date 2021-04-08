@@ -10,4 +10,4 @@
 7. Minimize window and open another window to do work in Zendesk
 8. Exit window or run `window.clearInterval(interval)` in the console to stop script
 
-![Google Chrome Screenshot](/images/zendesk-view-notifications-chrome.jpg)
+![Google Chrome Screenshot](/zendesk-view-notifications/images/zendesk-view-notifications-chrome.jpg)
